@@ -1,7 +1,7 @@
 'use client'
 
 import BikeCard from "@/components/bikecard/BikeCard";
-import Style from './page.module.css'
+import Style from '../../../public/page.module.css'
 import { useEffect, useState } from "react";
 import Loading from "@/components/loading/loading";
 const f=async()=>{
