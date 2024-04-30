@@ -77,6 +77,9 @@ const serchterm=()=>{
         setQuery(`query=${title}&`)
         // alert(`https://bikeindex.org:443/api/v3/search?${query}page=${curresntPage}&per_page=10&location=IP&distance=10&stolenness=stolen`)
     }
+    else{ setQuery(``)
+alert('lll')
+}
 }
 
     return <div className={Style.cont}>
