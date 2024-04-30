@@ -1,0 +1,29 @@
+.cont{
+    display:  flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+position: absolute;
+}
+.cont .onn{
+    /* position: absolute; */
+    margin-left: 100px;
+    z-index: 20;
+    /* background-color: transparent; */
+    width: 500px;
+    height: 70px;
+    color: black;
+    border: 2px gold solid;
+    font-size: 40px;
+    backdrop-filter: blur(10px);
+}
+.cont .tt{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+}
+.cont.tt .mm{
+    position: absolute;
+}

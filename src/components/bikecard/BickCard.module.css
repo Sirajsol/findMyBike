@@ -1,0 +1,66 @@
+.whole{
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+   
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    margin: 10px;
+   border: 1px gold solid;
+   position: absolute;
+   left:150px;
+   transition: 200ms ease-in-out;
+   backdrop-filter: blur(10px);
+
+    border-radius: 10px;
+}
+.whole:hover .cont{
+    box-shadow: 0 0 10px whitesmoke;
+    left:350px;
+   
+}
+.whole:hover .ii{
+scale: 1.1;}
+.title{
+    display: flex;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 28px;
+    justify-content: center;
+}
+.desc{
+    display: flex;
+    color: goldenrod;
+    font-size: 12px;
+}
+.img{
+ 
+    width: 400px;
+    height: 90%;
+    position: relative;
+    border: 1px gold solid;
+    background-color: brown;
+    overflow: hidden;
+    
+}
+
+.img .ii{
+    object-fit: fill;
+    transition: all 200ms ease-in-out;
+}
+.whole .cont :last-child {
+    /* background-color: black; */
+    backdrop-filter: blur(2px);
+}

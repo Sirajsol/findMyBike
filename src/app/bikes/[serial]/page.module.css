@@ -1,0 +1,105 @@
+.cont{
+    display:  flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    height: 80vh;
+    border:1px whitesmoke solid;
+    box-shadow: 0 0 10px blue;
+    padding: 50px ;
+    position: relative;
+  /* background-color: black; */
+  
+
+}
+.inner{
+    display: flex;
+   padding-top: 20px;
+   padding-bottom: 20px;
+    width: 80%;
+    /* height: 80%; */
+    margin-left: 10%;
+    /* position: absolute; */
+    z-index: 20;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border:1px whitesmoke solid;
+
+   
+    /* box-shadow: 0 0 10px blue; */
+    background-color: transparent;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    backdrop-filter: blur(15px);
+}
+.j{
+    display: flex;
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    color: whitesmoke;
+    backdrop-filter: blur(20px);
+    position: absolute;
+}
+.cov{
+    position: absolute;
+    width: 92%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.6;
+    /* filter: blur(3px); */
+}
+.lo{
+    /* position: absolute; */
+    display: flex;
+    width:800px;
+    height: 100px;
+    z-index: 30;
+    font-size: 40px;
+    left: 500px;
+  
+}
+.imgcon{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    border:1px gold solid;
+    margin-left: 5%;
+    position: absolute;
+}
+.imgcon .img{
+    position: absolute;
+    object-fit: fill;
+}
+.h5{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: rgb(89, 89, 216);
+    text-shadow: 0 0 25px whitesmoke;
+margin-bottom: 10px;
+margin-top: 10px;
+/* background: transparent;
+backdrop-filter: blur(10px); */
+}
+.h14{
+    display: flex;
+    width: 400px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: gold;
+    text-shadow: 0 0 25px whitesmoke;
+    /* background: transparent; */
+    /* backdrop-filter: blur(1px); */
+
+}

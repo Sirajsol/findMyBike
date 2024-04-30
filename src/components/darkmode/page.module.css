@@ -1,0 +1,44 @@
+.cont{
+  display: flex;
+  width: 70px;
+  height: 20px;
+  justify-content: space-around;
+  background-color: rgb(5, 24, 2);
+  border: 1px gold solid;
+  position: relative;
+  border-radius: 5px;
+  margin-right: 10px;
+  align-items: center;
+  gap: 5px;
+  /* padding: 17px 0; */
+}
+.icn{
+  display: flex;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 10px;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.ball{
+  display: flex;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: bisque;
+  position: absolute;
+  border: 2px blue solid;
+  cursor: pointer;
+  left: 0;
+transition: 0.3s ease-in;
+}
+.ball:hover{
+  background-color: gold;
+  box-shadow: 0 0 10px blue,
+  0 0 20px white
+  ;
+}
