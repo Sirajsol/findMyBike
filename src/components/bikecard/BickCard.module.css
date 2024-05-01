@@ -61,6 +61,6 @@ scale: 1.1;}
     transition: all 200ms ease-in-out;
 }
 .whole .cont :last-child {
-    /* background-color: black; */
+    background-color: black;
     backdrop-filter: blur(2px);
 }

@@ -1,9 +1,12 @@
 'use client'
 
 import BikeCard from "@/components/bikecard/BikeCard";
-import Style from '../../../public/Page.module.css'
+// import Style from '../../../public/Page.module.css'
+import Style from './page.module.css'
 import { useEffect, useState } from "react";
 import Loading from "@/components/loading/loading";
+import r from '../../../public/thf.jpg'
+import Image from "next/image";
 const f=async()=>{
     const g=await fetch(`https://bikeindex.org:443/api/v3/search?page=${curresntPage}${query}&per_page=15&location=IP&distance=10&stolenness=stolen`)
 const d=await g.json()
@@ -83,7 +86,7 @@ alert('lll')
 }
 
     return <div className={Style.cont}>
-       
+      
        {wholeNumber>0?<input className={Style.navtextt} type="text" 
     value={`${wholeNumber} stolen case`} 
     />:null} 
@@ -161,6 +164,7 @@ alert('lll')
 </div>})} */}
 
 {data.map(dd=><BikeCard key={dd.id} card={dd}/>)}
+
 {((data.length==0)&&(!loading) &&(query.length>0))?<div className={Style.nodata}>No Data</div>:null}
 <dv lassName={Style.nav}></dv>
 {data.length>0?(<div className={Style.nav}>
