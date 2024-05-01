@@ -36,7 +36,7 @@ const[loading,setLoading]=useState(false)
         }
              )
              if(bikes){
-//                 var date = new Date(1546108200 * 1000);
+//                 var  date = new Date(1546108200 * 1000);
 // console.log(date.toUTCString())
                 // alert((bikes[1].date_stolen*1000))
                 setData(bikes)
